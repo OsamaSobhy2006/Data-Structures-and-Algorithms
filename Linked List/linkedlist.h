@@ -7,4 +7,8 @@ struct node {
 
 
 void insertEnd(int value);
+void insertBeginning(int value);
 void display();
+void deleteNode(int value);
+void deleteBeginning();
+void deleteEnd();
