@@ -125,6 +125,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="linkedlist.cpp" />
+    <ClCompile Include="reverse_linkedlist.cpp" />
     <ClCompile Include="test_linked_list.cpp" />
   </ItemGroup>
   <ItemGroup>

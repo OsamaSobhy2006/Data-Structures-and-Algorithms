@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	
+
 	insertEnd(5);
 	insertEnd(10);
 	insertEnd(24);
@@ -18,7 +18,8 @@ int main() {
 	display();
 	deleteEnd();
 	display();
-
+	head = Reverse(head);
+	display();
 
 	return 0;
 }
