@@ -124,10 +124,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Balanced_parentheses.cpp" />
     <ClCompile Include="stack.cpp" />
     <ClCompile Include="test_stack.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Balanced_parentheses.h" />
     <ClInclude Include="stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

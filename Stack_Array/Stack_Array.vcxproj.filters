@@ -21,9 +21,15 @@
     <ClCompile Include="test_stack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Balanced_parentheses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stack.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Balanced_parentheses.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
