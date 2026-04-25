@@ -23,6 +23,8 @@
 #include "Balanced_parentheses.h"
 using namespace std;
 
+
+
 // Constructor: initialize stack as empty
 Stack::Stack() {
 	top = -1;
