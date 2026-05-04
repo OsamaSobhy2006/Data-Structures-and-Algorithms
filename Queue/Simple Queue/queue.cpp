@@ -40,7 +40,7 @@ void dequeue() {
 }
 
 void display() {
-	// check if the queu is not empty
+	// check if the queue is not empty
 	if (front != -1 && rear != -1 && front <= rear) {
 		// loop on the array (queue)
 		for (int i = front; i <= rear; i++) {
