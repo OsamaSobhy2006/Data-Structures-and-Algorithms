@@ -15,7 +15,7 @@ void  enqueue(int value) {
 			// increase front value by 1
 			front++;
 
-			// increate the rear value by 1 and give it the value
+			// increase the rear value by 1 and give it the value
 			queue[++rear] = value;
 		}
 		// first check if the queue is not full and add the new value
