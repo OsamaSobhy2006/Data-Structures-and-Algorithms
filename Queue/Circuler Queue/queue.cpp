@@ -24,7 +24,7 @@ bool isFull() {
 	else if (rear == front - 1)
 		return true;
 
-	// if the queu is empty
+	// if the queue is empty
 	else
 		return false;
 }
