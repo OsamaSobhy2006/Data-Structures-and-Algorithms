@@ -31,7 +31,7 @@ bool isFull() {
 
 // function to insert values in the queue
 void enqueue(int value) {
-	// first: check if the queu is full
+	// first: check if the queue is full
 	if(isFull())
 		cout << "Queue is Full. \n";
 
@@ -39,7 +39,7 @@ void enqueue(int value) {
 	else {
 		// check if the queue is empty
 		if (isEmpty()) {
-			// increse front and rear by 1
+			// increase front and rear by 1
 			front = rear = 0;
 
 			// insert the new value
