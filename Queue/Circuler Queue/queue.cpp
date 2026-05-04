@@ -88,7 +88,7 @@ void dequeue() {
 
 // function to return the element in the top of queue
 int peek() {
-	// first: check if the queu is empty
+	// first: check if the queue is empty
 	if (isEmpty()) {
 		cout << "Queue is Empty. \n";
 		return -1;
